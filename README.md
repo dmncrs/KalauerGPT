@@ -4,8 +4,8 @@ This go through the kalauer list and checks for duplicates.
 ## How to use
 1. Create venv and install requirements
     ```bash
-    python -m venv venv
-    source venv/bin/activate
+    python -m venv .venv
+    source .venv/bin/activate
     pip install -r requirements.txt
     ```
 2. Overwrite the file `.venv/lib/python3.10/site-packages/pyChatGPT/pyChatGPT.py` with the file `pyChatGPT.py` in this repository
